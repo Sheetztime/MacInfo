@@ -21,7 +21,7 @@ def is_valid_mac(macaddress):
 def get_comp_info(inputMacAddrs,apikey):
 
     URL="https://api.macaddress.io/v1?apiKey="+apikey+"&output=json&search="+inputMacAddrs
-    out = check_output(["curl",URL])
+    out = check_output(["curl","--silent",URL])
     data = out.decode().split('",') #split API output into a list
     print ("Company details for the MAC address" + inputMacAddrs)
     #This block parses the returned info to only print Company Name and Address
