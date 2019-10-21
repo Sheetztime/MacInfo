@@ -2,11 +2,11 @@
 Docker image run to get company info for an input MAC address using REST in python
 
 Getting Started
-- Create a API key from "https://macaddress.io/api/documentation/making-requests" using your account 
-- $ git clone https://github.com/Sheetztime/MacInfo
-$ cd MacInfo      :
-$ docker build -t macinfo .       :
-$ docker --rm macinfo 98-01-a7-a2-df-fd <your APIKEY>      :
+1) - Create a API key from "https://macaddress.io/api/documentation/making-requests" using your account 
+2) $ git clone https://github.com/Sheetztime/MacInfo
+3) $ cd MacInfo      :
+4) $ docker build -t macinfo .       
+5) $ docker --rm macinfo 98-01-a7-a2-df-fd APIKEY_You_Created_in_Step1     
 
 Prerequisites:
 - Docker Engine , refer https://docs.docker.com/install/
@@ -28,7 +28,7 @@ docker run --rm macinfo <MAC ADDRESS TO GET INFO OF> <APIKEY>
 Idea is to get the output from the program and then delete the container as it serves no other purpose, hence you see "--rm" parameter. 
 
 Example
-docker run --rm macinfo 44:38:39:ff:ef:57 <APIKEY>
+docker run --rm macinfo 44:38:39:ff:ef:57 APIKEY_You_Created
 
 
 Running the tests cases:
