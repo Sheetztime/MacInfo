@@ -34,7 +34,7 @@ docker run --rm macinfo 44:38:39:ff:ef:57 APIKEY_You_Created
 Running the tests cases:
 
 
-1) If you don't pass both the argurments  following error will occur:
+1) If you don't pass valid MAC address  following error will occur:
 - INvalid MAC address :
 Error: invalid MAC address format, please enter a Valid MAC in format ff:ff:ff:ff:ff:ff ,ff-ff-ff-ff-ff-ff,ffffffffffff:
 2) Not passing all arguments:
