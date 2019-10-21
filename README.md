@@ -6,7 +6,7 @@ Getting Started
 2) $ git clone https://github.com/Sheetztime/MacInfo
 3) $ cd MacInfo      :
 4) $ docker build -t macinfo .       
-5) $ docker --rm macinfo 98-01-a7-a2-df-fd APIKEY_You_Created_in_Step1     
+5) $ docker run --rm macinfo 98-01-a7-a2-df-fd APIKEY_You_Created_in_Step1     
 
 Prerequisites:
 - Docker Engine , refer https://docs.docker.com/install/
