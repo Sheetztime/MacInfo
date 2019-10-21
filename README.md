@@ -4,11 +4,11 @@ Docker image run to get company info for an input MAC address using REST in pyth
 Getting Started
 - Create a API key from "https://macaddress.io/api/documentation/making-requests" using your account 
 - $ git clone https://github.com/Sheetztime/MacInfo
-$ cd MacInfo
-$ docker build -t macinfo .
-$ docker --rm macinfo 98-01-a7-a2-df-fd <your APIKEY>
+$ cd MacInfo      :
+$ docker build -t macinfo .       :
+$ docker --rm macinfo 98-01-a7-a2-df-fd <your APIKEY>      :
 
-Prerequisites
+Prerequisites:
 - Docker Engine , refer https://docs.docker.com/install/
 - This has been tested on Docker running on MAC OS  with Python version 3.X.
 - You need a working  internet connection
